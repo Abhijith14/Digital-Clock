@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Digital Clock.exe" version="1.0.0.0" publicKeyToken="d35a645f023e0298" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Digital Clock" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Digital Clock.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Digital Clock.exe" size="391224">
+      <assemblyIdentity name="Digital Clock" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PQ+LQLLxTJJWA2CXRSomPEFLpkwtKoe0n0tukf6y9QQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Digital Clock.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-Q5DL88JU\ABHIJITH UDAYAKUMAR" issuerKeyHash="0b9f773627b2e93843bec1a50cd42f14a1577096" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JuMNZCq4JZUc4I5y4I+e9pTA8rD3D2zL8R8jfZk4Uzc=</DigestValue></Reference></SignedInfo><SignatureValue>f/4mPRi8RZSPue8ZZYZa4czOVMw2vCq5IHJHVVe15WYAjsR70eyS1L32Dy+ItbgyhDYS7a7P3dSATrDGTImkusYcSInSBQjqthT3pyk8LBH5dXvY29guHX93tppU9ILenDj0HP+nfRqwvBzJEgTGMkPdIWzDWj6+ELsbR4y7zc8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>l0gtYekeYV50er5lMIQAQZsDZU+EY6UJvHOluWxcS5XVjhlyYzqZutkDzVAEmksCFtvEk4nt7dIHt0IzY74EAaJAYYF0Bd59cmngl89M0UfhUDy9eUsqHFOWOF5n1QaWr1Z5fDODQQ9ly4/M2q1BRrrwN/lRFsBtsagoaRzU41U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="375338997d231ff1cb6c0ff7b0f2c094f69e8fe0728ee01c9525b82a640de326" Description="" Url=""><as:assemblyIdentity name="Digital Clock.exe" version="1.0.0.0" publicKeyToken="d35a645f023e0298" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-Q5DL88JU\ABHIJITH UDAYAKUMAR</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uzfwNoM31Np7Z4XSQ/6Ibv92EDOv3eFrK383gV5XfJk=</DigestValue></Reference></SignedInfo><SignatureValue>Q213mln3rQrV23S8hr3dO0ytOLmKvx+tp9sJmytqVNhq5ODW66e/quUKxfKNT4OQyvWljyjSfUk6jtKo/2D1bijawsEOtwasIQvHfmMGJ426weLK1PaCBTvYrpI+UqfmT8RCAaayTE8K6eZZfgSFl7q4HtQ3Xjwz0XptJwqh0Ew=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>l0gtYekeYV50er5lMIQAQZsDZU+EY6UJvHOluWxcS5XVjhlyYzqZutkDzVAEmksCFtvEk4nt7dIHt0IzY74EAaJAYYF0Bd59cmngl89M0UfhUDy9eUsqHFOWOF5n1QaWr1Z5fDODQQ9ly4/M2q1BRrrwN/lRFsBtsagoaRzU41U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICJTCCAY6gAwIBAgIQGLA52M8w+adFf/F3bb392TANBgkqhkiG9w0BAQsFADBRMU8wTQYDVQQDHkYATABBAFAAVABPAFAALQBRADUARABMADgAOABKAFUAXABBAEIASABJAEoASQBUAEgAIABVAEQAQQBZAEEASwBVAE0AQQBSMB4XDTIxMDMyOTE4NTQyNVoXDTIyMDMzMDAwNTQyNVowUTFPME0GA1UEAx5GAEwAQQBQAFQATwBQAC0AUQA1AEQATAA4ADgASgBVAFwAQQBCAEgASQBKAEkAVABIACAAVQBEAEEAWQBBAEsAVQBNAEEAUjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAl0gtYekeYV50er5lMIQAQZsDZU+EY6UJvHOluWxcS5XVjhlyYzqZutkDzVAEmksCFtvEk4nt7dIHt0IzY74EAaJAYYF0Bd59cmngl89M0UfhUDy9eUsqHFOWOF5n1QaWr1Z5fDODQQ9ly4/M2q1BRrrwN/lRFsBtsagoaRzU41UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBS8f5Dam8gBj4/Dr9nyrQuPN0HnKKam6Y/krq0Zx1aeSu9Rk8IPIQDEwweOQcUtrfzBVg23ZX/hx7zAOL5Wo6M47Vh49NHYeJtSw5XrokjO7NuIXfEknl1CRtM/uTPM9o1TT44U5EU6riIWdbwLT55GM1vPrVXXCeLKfpi/hY6Ag==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
