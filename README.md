@@ -15,7 +15,7 @@
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-_**Note : This project is created in Microsoft Visual Studio Community 2019 Version 16.8.4 with a display scale of 175%. So if your's isnt 175%, change your default size to 175% or convert back this project to your recommended size.**_
+_**Note : This project was created in Microsoft Visual Studio Community 2019 Version 16.8.4 with a display scale of 175%. So if yours isn't 175%, change your default size to 175% or convert back this project to your recommended size.**_
 
 ### Installing Setup
 
@@ -34,7 +34,7 @@ Visual Studio solution file can be found [here.](https://github.com/Abhijith14/D
 
 ### Deployment
 
-After clonning [this repo](https://github.com/Abhijith14/Digital-Clock), run Form1. Find the code in Form1.vb and Design in Form1.vb (Design).
+After cloning [this repo](https://github.com/Abhijith14/Digital-Clock), run Form1. Find the code in Form1.vb and Design in Form1.vb (Design).
 
 ### Built With
 
